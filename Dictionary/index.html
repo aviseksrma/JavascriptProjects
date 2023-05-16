@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Dictionary</title>
+  </head>
+  <body>
+    <div class="container max-w-3xl m-auto">
+      <div class="search p-6 text-center text-3xl">
+        <input
+          id="inp-word"
+          type="text"
+          placeholder="Type a word here"
+          class="w-2/3 m-auto border-2 rounded-md p-2"
+        />
+        <button class="w-1/4 m-auto border-2 rounded-md p-2" id="search-btn">
+          Search
+        </button>
+      </div>
+      <div class="defination text-center" id="result"></div>
+    </div>
+
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
